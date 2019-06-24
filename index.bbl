@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+
+\bibitem[AWS, ne]{DLake01:Online}
+AWS (ne).
+\newblock What is a data lake?
+\newblock Recuperado de
+  {https://aws.amazon.com/es/big-data/datalakes-and-analytics/what-is-a-data-lake/}.
+\newblock Accedido 20-06-2019.
+
+\bibitem[Campbell, 2015]{DWarehouseVsDLake01:Online}
+Campbell, C. (Enero 26, 2015).
+\newblock Top five differences between data lakes and data warehouses.
+\newblock Recuperado de
+  {https://www.blue-granite.com/blog/bid/402596/top-five-differences-between-data-lakes-and-data-warehouses}.
+\newblock Accedido 21-06-2019.
+
+\bibitem[ColombiaDigital, 2017]{DWarehouse02:Online}
+ColombiaDigital, C. (Junio 30, 2017).
+\newblock Qué es un data warehouse y qué beneficios aporta a las
+  organizaciones?
+\newblock Recuperado de
+  {https://colombiadigital.net/actualidad/articulos-informativos/item/9814-que-es-un-data-warehouse-y-que-beneficios-aporta-a-las-organizaciones.html}.
+\newblock Accedido 21-06-2019.
+
+\bibitem[Pearlman, 2019]{DWarehouse03:Online}
+Pearlman, S. (enero 29, 2019).
+\newblock Data lakes frente a almacenes de datos.
+\newblock Recuperado de
+  {https://es.talend.com/resources/data-lake-vs-data-warehouse/}.
+\newblock Accedido 22-06-2019.
+
+\bibitem[PowerData, 2015]{DLake02:Online}
+PowerData (2015).
+\newblock Data lake: definición, conceptos clave y mejores prácticas.
+\newblock Recuperado de {https://www.powerdata.es/data-lake}.
+\newblock Accedido 19-06-2019.
+
+\bibitem[Sinnexus, 2007]{DWarehouse01:Online}
+Sinnexus (2007).
+\newblock Datawarehouse.
+\newblock Recuperado de
+  {https://www.sinnexus.com/business\_intelligence/datawarehouse.aspx}.
+\newblock Accedido 19-06-2019.
+
+\bibitem[Soto, 2017]{DWarehouseVsDLake02:Online}
+Soto, J.~M. (Diciembre 20, 2017).
+\newblock Principales diferencias entre data lakes y data warehouse.
+\newblock Recuperado de
+  {https://trends.inycom.es/principales-diferencias-data-lakes-data-warehouse/\#prettyPhoto}.
+\newblock Accedido 21-06-2019.
+
+\end{thebibliography}
