@@ -236,9 +236,65 @@ Surely you have heard the term Data Warehouse many times; we can define it as a 
 					\item Dar soporte a los responsables técnicos del datawarehouse en aspectos de auditoría, gestión de la información histórica, administración del datawarehouse, elaboración de programas de extracción de la información, especificación de las interfaces para la realimentación a los sistemas operacionales de los resultados obtenidos... etc.
 					
 					\item Proporcionar una herramienta para la toma de decisiones en cualquier área funcional, basándose en información integrada y global del negocio.
+					\item Facilita la aplicación de técnicas estadísticas de análisis y modelización para encontrar relaciones ocultas entre los datos del almacén; obteniendo un valor añadido para el negocio de dicha información.
 					
+					\item Proporcionar la capacidad de aprender de los datos del pasado y de predecir situaciones futuras en diversos escenarios.
 					
+					\item Supone una optimización tecnológica y económica en entornos de Centro de Información, estadística o de generación de informes con retornos de la inversión espectaculares.
+					
+					\item Permite mayor flexibilidad y rapidez en el acceso a la información.
+					
+					\item Mejor inteligencia empresarial, el data warehouse es vital para la inteligencia del negocio, por lo que los datos traerán efectos positivos como, por ejemplo, un servicio al cliente optimizado, el cual permite la relación con los clientes para controlar el servicio prestado y atenderlo de acuerdo con sus necesidades.\cite{DWarehouse02:Online}	
 				\end{itemize}
+			
+			\subsubsection{Obtención de Datos(ETL)}
+			
+			Por último, destacar que para comprender íntegramente el concepto de data warehouse, es importante entender cual es el proceso de construcción del mismo, denominado ETL (Extracción, Transformación y Carga), a partir de los sistemas operaciones de una compañía:
+			
+				\begin{itemize}
+					
+					\item Extracción: obtención de información de las distintas fuentes tanto internas como externas.
+					
+					 Primero se debe identificar dónde se almacenan los datos relevantes. Esto puede llegar a ser un desafío ya que en las organizaciones los datos de los clientes están en decenas de sistemas diferentes.
+					 
+					 \item Transformación: filtrado, limpieza, depuración, homogeneización y agrupación de la información.
+					 
+					 En segundo lugar, los datos deben ser extraídos de esos sistemas. Es posible que cuando se desarrollaron no se esperara que fuera necesario alinear sus datos con los de otros sistemas. También es posible que la limpieza de los datos sea distinta en los diferentes sistemas. Por esa razón la información tiene que ser transformada en un formato estandarizado, consistente y limpio.
+					 
+					 \item Carga: organización y actualización de los datos y los metadatos en la base de datos.
+					 
+					 A continuación, es necesario cargar en el data warehouse. Los datos históricos que tienen poca relevancia para las operaciones actuales pueden dejarse a un lado, o cargar solo si hay espacio suficiente. Los datos operacionales y transaccionales más recientes que provienen de las diversas funciones, canales y puntos de contacto, es muy probable que sean priorizados para su carga. Es muy importante ir refrescando los datos, lo cual se puede hacer de forma diaria o semanal, dependiendo de la velocidad de los cambios en el negocio y su entorno.
+						
+				\end{itemize}
+			
+			Una de las claves del éxito en la construcción de un datawarehouse es el desarrollo de forma gradual, seleccionando a un departamento usuario como piloto y expandiendo progresivamente el almacén de datos a los demás usuarios. Por ello es importante elegir este usuario inicial o piloto, siendo importante que sea un departamento con pocos usuarios, en el que la necesidad de este tipo de sistemas es muy alta y se puedan obtener y medir resultados a corto plazo.\\
+			\\
+			Finalmente, se puede decir que el principal beneficio del Data Warehouse para las empresas es que tiene la propiedad de eliminar los datos que interfieren con el análisis de la información y su entrega; sea cual sea el formato requerido, el Data Warehouse facilita el proceso de gestión.\cite{DWarehouse03:Online}
+			
+			
+		\section{Análisis}
+
+		 \subsection{Data Lakes y Data Warehouse}
+
+
+		Los data lakes han surgido en el paisaje de Data Management en los últimos años, sin embargo, data lake no es necesariamente un reemplazo del data warehouse. En cambio, complementan los esfuerzos existentes y dan soporte al descubrimiento de nuevas preguntas. Una vez que se descubren esas preguntas se optimizan las respuestas. Y optimizar puede significar moverse fuera del data lake para ir a un data mart o al data warehouse.\\
+		\\
+		Estas son algunas diferencias clave entre data lake y data warehouse:
+		
+		\begin{itemize}
+			
+			\item Datos: Un data warehouse sólo almacena datos que han sido modelados o estructurados, mientras que un Data Lake no hace acepción de datos. Lo almacena todo, estructurado, semiestructurado y no estructurado.
+
+			\item Procesamiento: Antes de que una empresa pueda cargar datos en un data warehouse, primero debe darles forma y estructura, es decir, los datos deben ser modelados. Eso se llama schema-on-write. Con un data lake, sólo se cargan los datos sin procesar, tal y como están, y cuando esté listo para usar los datos, es cuando se le da forma y estructura. Eso se llama schema-on-read. Dos enfoques muy diferentes.
+
+			\item Almacenamiento: Una de las principales características de las tecnologías de big data, como Hadoop, es que el coste de almacenamiento de datos es relativamente bajo en comparación con el de un data warehouse. Hay dos razones principales para esto: en primer lugar, Hadoop es software de código abierto, por lo que la concesión de licencias y el soporte de la comunidad es gratuito. Y segundo, Hadoop está diseñado para ser instalado en hardware de bajo coste.
+
+			\item Agilidad: Un almacén de datos es un repositorio altamente estructurado, por definición. No es técnicamente difícil cambiar la estructura, pero puede tomar mucho tiempo dado todos los procesos de negocio que están vinculados a ella. Un data lake, por otro lado, carece de la estructura de un data warehouse, lo que da a los desarrolladores y a los científicos de datos la capacidad de configurar y reconfigurar fácilmente y en tiempo real sus modelos, consultas y aplicaciones.
+
+			\item Seguridad: La tecnología del data warehouse existe desde hace décadas, mientras que la tecnología de big data (la base de un Data Lake) es relativamente nueva. Por lo tanto, la capacidad de asegurar datos en un data warehouse es mucho más madura que asegurar datos en un data lake. Cabe señalar, sin embargo, que se está realizando un importante esfuerzo en materia de seguridad en la actualidad en la industria de Big Data. \cite{DWarehouseVsDLake02:Online}
+		\end{itemize}
+					
+				
 			
 			
 
